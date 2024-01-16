@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let tall = [1, 2, 3, 4, 5, 6]
+        function summerTall(tallArray) {
+
+             
+            if (tallArray[0] > 0 && tallArray[1] > 0 && tallArray[2] > 0 && tallArray[3] > 0 && tallArray[4] > 0 && tallArray[5] > 0) {
+                return tallArray[0] + tallArray[1] + tallArray[2] + tallArray[3] + tallArray[4] + tallArray[5]
+            }
+            else {
+                return false
+            }
+    
+        }
+
+        let tesTall = summerTall(tall)
+
+        alert(tesTall)
+    </script>
+</body>
+
+</html>
